@@ -22,6 +22,7 @@
 add_action( 'add_meta_boxes', 'sh_post_types_custom_box' ); // WP 3.0+
 add_action( 'admin_init', 'sh_post_types_custom_box', 1 ); // backwards compatible
 add_action( 'save_post', 'sh_post_types_save_postdata' ); /* Do something with the data entered */
+add_action( 'wp_enqueue_scripts', 'sh_enqueue_jquery' ); // Enqueue jQuery if it isn't already loaded
 add_action('wp_head', 'sh_featured_image');
 
 /**
