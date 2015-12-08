@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: shahpranaf
+Contributors: shahpranaf, jjloomis
 Tags: Featured, Image, Hide, Show, Post, Thumbnail, Custom Post Type
 Stable tag: trunk
 Requires at least: 3.0.1
