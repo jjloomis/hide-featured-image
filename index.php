@@ -84,6 +84,15 @@ function sh_post_types_save_postdata( $post_id ) {
 }
 
 /**
+ *  Enqueue jQuery if it isn't already loaded
+ * 
+ */
+
+function sh_enqueue_jquery() {
+	wp_enqueue_script('jquery');
+}
+
+/**
  *  To hide featured image from single post page
  * 
  * @since Hide Featured Image 1.0
