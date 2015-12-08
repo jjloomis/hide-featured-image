@@ -103,9 +103,13 @@ function sh_featured_image() {
         $hide_image =  get_post_meta( get_the_ID(), '_hide_featured', true );
 
         if( isset( $hide_image ) && $hide_image ){ ?>
-            <style>
-            .has-post-thumbnail img.wp-post-image{ display: none; }
-            </style><?php
+			<script type="text/javascript">
+				jQuery(document).ready(function($){
+	
+				$( '.wp-post-image' ).height(0);
+				
+				});
+			</script><?php
         }
     }
 }
