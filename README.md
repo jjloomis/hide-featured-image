@@ -1,6 +1,7 @@
+Hide Featured Image with jQuery
+===============================
 About
 -----
-This is my fork of the Hide Featured Image WordPress plugin. I use jQuery to hide featured images instead of CSS.
+When you hide a featured image with CSS, the article text gets pushed to the top the article div. This happens because bottom margin of the featured image usually acts as the top padding of the article. To prevent this from happening, I use jQuery to set the featured image height to 0. The featured image is not visible, but its bottom margin acts as the top padding of the article. 
 
-When hiding a featured image with CSS, the article text gets mushed to the top the article div. The theme needs to think the featured image is still there (because the bottom margin of the featured image is basically the top padding of the article div.)
-My fork of the Hide Featured Image plugin uses jQuery to set the featured image height to 0. No more article text mushing to the top of the article div.
+
