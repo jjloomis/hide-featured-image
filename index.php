@@ -1,13 +1,13 @@
 <?php
 /*
 
-  Plugin Name: Hide Featured Image
+  Plugin Name: Hide Featured Image (jjloomis fork)
 
   Plugin URI: http://shahpranav.com/
 
   Description: To show/hide featured images on individual posts.
 
-  Version: 1.0
+  Version: 1000.0
 
   Author: shahpranaf
 
